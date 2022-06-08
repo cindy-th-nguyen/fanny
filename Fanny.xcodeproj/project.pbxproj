@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AFAA2012A5EDDCC72BD1879 /* Pods_Fanny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B649E8A393E43450CEBB145 /* Pods_Fanny.framework */; };
+		A00704182850E70200AF8346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00704172850E70200AF8346 /* AppDelegate.swift */; };
+		A007041A2850E70200AF8346 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00704192850E70200AF8346 /* SceneDelegate.swift */; };
+		A007041C2850E70200AF8346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007041B2850E70200AF8346 /* ViewController.swift */; };
+		A007041F2850E70200AF8346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A007041D2850E70200AF8346 /* Main.storyboard */; };
+		A00704212850E70400AF8346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00704202850E70400AF8346 /* Assets.xcassets */; };
+		A00704242850E70400AF8346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00704222850E70400AF8346 /* LaunchScreen.storyboard */; };
+		A007042F2850E70400AF8346 /* FannyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007042E2850E70400AF8346 /* FannyTests.swift */; };
+		A00704392850E70400AF8346 /* FannyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00704382850E70400AF8346 /* FannyUITests.swift */; };
+		A007043B2850E70400AF8346 /* FannyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A007043A2850E70400AF8346 /* FannyUITestsLaunchTests.swift */; };
+		D96626E18A1337ED87399DEA /* Pods_FannyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4560FE6DCE78CE1575CFA8 /* Pods_FannyTests.framework */; };
+		F64E4D380D8D836B5B8F1F30 /* Pods_Fanny_FannyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83B4A799E9358AE2EF413ED /* Pods_Fanny_FannyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A007042B2850E70400AF8346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A007040C2850E70200AF8346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00704132850E70200AF8346;
+			remoteInfo = Fanny;
+		};
+		A00704352850E70400AF8346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A007040C2850E70200AF8346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00704132850E70200AF8346;
+			remoteInfo = Fanny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DC7DD8915906CA409E284D /* Pods-Fanny-FannyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanny-FannyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fanny-FannyUITests/Pods-Fanny-FannyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		185F6F3D5248F1470753B759 /* Pods-Fanny-FannyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanny-FannyUITests.release.xcconfig"; path = "Target Support Files/Pods-Fanny-FannyUITests/Pods-Fanny-FannyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B649E8A393E43450CEBB145 /* Pods_Fanny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fanny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6522761E624C9068A84799FB /* Pods-Fanny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanny.debug.xcconfig"; path = "Target Support Files/Pods-Fanny/Pods-Fanny.debug.xcconfig"; sourceTree = "<group>"; };
+		A00704142850E70200AF8346 /* Fanny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fanny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00704172850E70200AF8346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00704192850E70200AF8346 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A007041B2850E70200AF8346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A007041E2850E70200AF8346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00704202850E70400AF8346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00704232850E70400AF8346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00704252850E70400AF8346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A007042A2850E70400AF8346 /* FannyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FannyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A007042E2850E70400AF8346 /* FannyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FannyTests.swift; sourceTree = "<group>"; };
+		A00704342850E70400AF8346 /* FannyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FannyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00704382850E70400AF8346 /* FannyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FannyUITests.swift; sourceTree = "<group>"; };
+		A007043A2850E70400AF8346 /* FannyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FannyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B76C26C1784ED810C9C9D37D /* Pods-Fanny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanny.release.xcconfig"; path = "Target Support Files/Pods-Fanny/Pods-Fanny.release.xcconfig"; sourceTree = "<group>"; };
+		BD4560FE6DCE78CE1575CFA8 /* Pods_FannyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FannyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C751433B0553086E56B4E7E6 /* Pods-FannyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FannyTests.debug.xcconfig"; path = "Target Support Files/Pods-FannyTests/Pods-FannyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83B4A799E9358AE2EF413ED /* Pods_Fanny_FannyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fanny_FannyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48EB9CA166547063F7118C9 /* Pods-FannyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FannyTests.release.xcconfig"; path = "Target Support Files/Pods-FannyTests/Pods-FannyTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00704112850E70200AF8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFAA2012A5EDDCC72BD1879 /* Pods_Fanny.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704272850E70400AF8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96626E18A1337ED87399DEA /* Pods_FannyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704312850E70400AF8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64E4D380D8D836B5B8F1F30 /* Pods_Fanny_FannyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CD4C78C9F4410E2C22AD13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6522761E624C9068A84799FB /* Pods-Fanny.debug.xcconfig */,
+				B76C26C1784ED810C9C9D37D /* Pods-Fanny.release.xcconfig */,
+				01DC7DD8915906CA409E284D /* Pods-Fanny-FannyUITests.debug.xcconfig */,
+				185F6F3D5248F1470753B759 /* Pods-Fanny-FannyUITests.release.xcconfig */,
+				C751433B0553086E56B4E7E6 /* Pods-FannyTests.debug.xcconfig */,
+				D48EB9CA166547063F7118C9 /* Pods-FannyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2AB8BC47E6AAC9A865335168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B649E8A393E43450CEBB145 /* Pods_Fanny.framework */,
+				C83B4A799E9358AE2EF413ED /* Pods_Fanny_FannyUITests.framework */,
+				BD4560FE6DCE78CE1575CFA8 /* Pods_FannyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A007040B2850E70200AF8346 = {
+			isa = PBXGroup;
+			children = (
+				A00704162850E70200AF8346 /* Fanny */,
+				A007042D2850E70400AF8346 /* FannyTests */,
+				A00704372850E70400AF8346 /* FannyUITests */,
+				A00704152850E70200AF8346 /* Products */,
+				25CD4C78C9F4410E2C22AD13 /* Pods */,
+				2AB8BC47E6AAC9A865335168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A00704152850E70200AF8346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00704142850E70200AF8346 /* Fanny.app */,
+				A007042A2850E70400AF8346 /* FannyTests.xctest */,
+				A00704342850E70400AF8346 /* FannyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00704162850E70200AF8346 /* Fanny */ = {
+			isa = PBXGroup;
+			children = (
+				A00704172850E70200AF8346 /* AppDelegate.swift */,
+				A00704192850E70200AF8346 /* SceneDelegate.swift */,
+				A007041B2850E70200AF8346 /* ViewController.swift */,
+				A007041D2850E70200AF8346 /* Main.storyboard */,
+				A00704202850E70400AF8346 /* Assets.xcassets */,
+				A00704222850E70400AF8346 /* LaunchScreen.storyboard */,
+				A00704252850E70400AF8346 /* Info.plist */,
+			);
+			path = Fanny;
+			sourceTree = "<group>";
+		};
+		A007042D2850E70400AF8346 /* FannyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A007042E2850E70400AF8346 /* FannyTests.swift */,
+			);
+			path = FannyTests;
+			sourceTree = "<group>";
+		};
+		A00704372850E70400AF8346 /* FannyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00704382850E70400AF8346 /* FannyUITests.swift */,
+				A007043A2850E70400AF8346 /* FannyUITestsLaunchTests.swift */,
+			);
+			path = FannyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00704132850E70200AF8346 /* Fanny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A007043E2850E70400AF8346 /* Build configuration list for PBXNativeTarget "Fanny" */;
+			buildPhases = (
+				77B61EF4E9A4CB1E030263A7 /* [CP] Check Pods Manifest.lock */,
+				A00704102850E70200AF8346 /* Sources */,
+				A00704112850E70200AF8346 /* Frameworks */,
+				A00704122850E70200AF8346 /* Resources */,
+				B0F9B59DF9051FBE880AACC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fanny;
+			productName = Fanny;
+			productReference = A00704142850E70200AF8346 /* Fanny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00704292850E70400AF8346 /* FannyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00704412850E70400AF8346 /* Build configuration list for PBXNativeTarget "FannyTests" */;
+			buildPhases = (
+				B2CFADF90DEE61D4F2B9ADFA /* [CP] Check Pods Manifest.lock */,
+				A00704262850E70400AF8346 /* Sources */,
+				A00704272850E70400AF8346 /* Frameworks */,
+				A00704282850E70400AF8346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A007042C2850E70400AF8346 /* PBXTargetDependency */,
+			);
+			name = FannyTests;
+			productName = FannyTests;
+			productReference = A007042A2850E70400AF8346 /* FannyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00704332850E70400AF8346 /* FannyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00704442850E70400AF8346 /* Build configuration list for PBXNativeTarget "FannyUITests" */;
+			buildPhases = (
+				776E01379A87938EC15AF183 /* [CP] Check Pods Manifest.lock */,
+				A00704302850E70400AF8346 /* Sources */,
+				A00704312850E70400AF8346 /* Frameworks */,
+				A00704322850E70400AF8346 /* Resources */,
+				F5D8E7498C31EC7ECFD0DDE2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00704362850E70400AF8346 /* PBXTargetDependency */,
+			);
+			name = FannyUITests;
+			productName = FannyUITests;
+			productReference = A00704342850E70400AF8346 /* FannyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A007040C2850E70200AF8346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A00704132850E70200AF8346 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A00704292850E70400AF8346 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A00704132850E70200AF8346;
+					};
+					A00704332850E70400AF8346 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A00704132850E70200AF8346;
+					};
+				};
+			};
+			buildConfigurationList = A007040F2850E70200AF8346 /* Build configuration list for PBXProject "Fanny" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A007040B2850E70200AF8346;
+			productRefGroup = A00704152850E70200AF8346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00704132850E70200AF8346 /* Fanny */,
+				A00704292850E70400AF8346 /* FannyTests */,
+				A00704332850E70400AF8346 /* FannyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00704122850E70200AF8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00704242850E70400AF8346 /* LaunchScreen.storyboard in Resources */,
+				A00704212850E70400AF8346 /* Assets.xcassets in Resources */,
+				A007041F2850E70200AF8346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704282850E70400AF8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704322850E70400AF8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		776E01379A87938EC15AF183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fanny-FannyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B61EF4E9A4CB1E030263A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fanny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F9B59DF9051FBE880AACC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanny/Pods-Fanny-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanny/Pods-Fanny-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanny/Pods-Fanny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CFADF90DEE61D4F2B9ADFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FannyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D8E7498C31EC7ECFD0DDE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanny-FannyUITests/Pods-Fanny-FannyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanny-FannyUITests/Pods-Fanny-FannyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanny-FannyUITests/Pods-Fanny-FannyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00704102850E70200AF8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A007041C2850E70200AF8346 /* ViewController.swift in Sources */,
+				A00704182850E70200AF8346 /* AppDelegate.swift in Sources */,
+				A007041A2850E70200AF8346 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704262850E70400AF8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A007042F2850E70400AF8346 /* FannyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00704302850E70400AF8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00704392850E70400AF8346 /* FannyUITests.swift in Sources */,
+				A007043B2850E70400AF8346 /* FannyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A007042C2850E70400AF8346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00704132850E70200AF8346 /* Fanny */;
+			targetProxy = A007042B2850E70400AF8346 /* PBXContainerItemProxy */;
+		};
+		A00704362850E70400AF8346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00704132850E70200AF8346 /* Fanny */;
+			targetProxy = A00704352850E70400AF8346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A007041D2850E70200AF8346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A007041E2850E70200AF8346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00704222850E70400AF8346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00704232850E70400AF8346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A007043C2850E70400AF8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A007043D2850E70400AF8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A007043F2850E70400AF8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6522761E624C9068A84799FB /* Pods-Fanny.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fanny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Fanny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00704402850E70400AF8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76C26C1784ED810C9C9D37D /* Pods-Fanny.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fanny/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.Fanny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00704422850E70400AF8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C751433B0553086E56B4E7E6 /* Pods-FannyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.FannyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanny.app/Fanny";
+			};
+			name = Debug;
+		};
+		A00704432850E70400AF8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48EB9CA166547063F7118C9 /* Pods-FannyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.FannyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fanny.app/Fanny";
+			};
+			name = Release;
+		};
+		A00704452850E70400AF8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DC7DD8915906CA409E284D /* Pods-Fanny-FannyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.FannyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanny;
+			};
+			name = Debug;
+		};
+		A00704462850E70400AF8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185F6F3D5248F1470753B759 /* Pods-Fanny-FannyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6QF2YD33Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnguyen.FannyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fanny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A007040F2850E70200AF8346 /* Build configuration list for PBXProject "Fanny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A007043C2850E70400AF8346 /* Debug */,
+				A007043D2850E70400AF8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A007043E2850E70400AF8346 /* Build configuration list for PBXNativeTarget "Fanny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A007043F2850E70400AF8346 /* Debug */,
+				A00704402850E70400AF8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00704412850E70400AF8346 /* Build configuration list for PBXNativeTarget "FannyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00704422850E70400AF8346 /* Debug */,
+				A00704432850E70400AF8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00704442850E70400AF8346 /* Build configuration list for PBXNativeTarget "FannyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00704452850E70400AF8346 /* Debug */,
+				A00704462850E70400AF8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A007040C2850E70200AF8346 /* Project object */;
+}
